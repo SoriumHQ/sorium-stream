@@ -58,6 +58,10 @@ pub struct TradeEvent {
     pub real_sol_reserves: u64,
     #[prost(uint64, tag="10")]
     pub real_token_reserves: u64,
+    #[prost(string, tag="11")]
+    pub trx_hash: ::prost::alloc::string::String,
+    #[prost(uint64, tag="12")]
+    pub block_number: u64,
 }
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
