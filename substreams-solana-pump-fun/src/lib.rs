@@ -105,6 +105,7 @@ fn map_program_data(blk: Block) -> Data {
                                         real_token_reserves: event.real_token_reserves,
                                         trx_hash: signature,
                                         block_number,
+                                        block_hash: blk.blockhash.clone(),
                                     });
                                 }
                             }

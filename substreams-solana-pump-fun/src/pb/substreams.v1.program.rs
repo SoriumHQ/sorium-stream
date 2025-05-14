@@ -62,6 +62,8 @@ pub struct TradeEvent {
     pub trx_hash: ::prost::alloc::string::String,
     #[prost(uint64, tag="12")]
     pub block_number: u64,
+    #[prost(string, tag="13")]
+    pub block_hash: ::prost::alloc::string::String,
 }
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]

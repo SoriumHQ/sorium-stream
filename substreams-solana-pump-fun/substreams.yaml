@@ -1,7 +1,7 @@
 specVersion: v0.1.0
 package:
-  name: pump_fun_substreams
-  version: v0.1.1
+  name: sorium_substreams_pump_fun
+  version: v0.1.2
   url: https://github.com/SoriumHQ/sorium-stream/tree/main/substreams-solana-pump-fun
   description: "PumpFun token trade events substreams"
 

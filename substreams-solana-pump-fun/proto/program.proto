@@ -31,8 +31,9 @@ message TradeEvent {
       uint64 virtual_token_reserves = 8;
       uint64 real_sol_reserves = 9;
       uint64 real_token_reserves = 10;
-      string trx_hash = 11;
+      string tx_hash = 11;
       uint64 block_number = 12;
+      string block_hash = 13;
 }
 message CompleteEvent {
       string user = 1;
